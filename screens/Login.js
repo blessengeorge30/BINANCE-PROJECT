@@ -69,7 +69,8 @@ const styles = StyleSheet.create({
     logo: {
         height: 110,
         width: 110,
-        marginBottom: 15
+        marginBottom: 15,
+        marginTop:65
     },
     textView: {
         fontSize: 18,

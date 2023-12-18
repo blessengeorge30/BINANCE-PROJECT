@@ -33,11 +33,11 @@ const Profile = () => {
             <View style={styles.discovercrypto}>
                 <View style={{ flexDirection: 'row' }}>
                     <Image style={{ height: 40, width: 40, marginLeft: 15, marginTop: 15 }} source={item.image} />
-                    <Text style={{ marginLeft: 12, marginTop: 23, fontSize: 20, fontWeight: 'bold', color: 'black' }}>{item.name}</Text>
+                    <Text style={{ marginLeft: 12, marginTop: 23, fontSize: 15, fontWeight: 'bold', color: 'black' }}>{item.name}</Text>
                 </View>
                 <View style={{ flexDirection: 'row' }}>
-                    <Text style={{ marginLeft: 27, marginTop: 15, fontSize: 20, fontWeight: 'bold', color: 'black' }}>{item.price}</Text>
-                    <Text style={{ marginLeft: 25, marginTop: 15, fontSize: 20, fontWeight: 'bold', color: 'green' }}>{item.price1}</Text>
+                    <Text style={{ marginLeft: 27, marginTop: 15, fontSize: 18, fontWeight: 'bold', color: 'black' }}>{item.price}</Text>
+                    <Text style={{ marginLeft: 20, marginTop: 18, fontSize: 17, fontWeight: 'bold', color: 'green' }}>{item.price1}</Text>
 
                 </View>
 
@@ -64,17 +64,17 @@ const Profile = () => {
         return (
             <View style={styles.discovercards}>
                 <View style={{ flexDirection: 'row' }}>
-                    <Text style={{ marginLeft: 12, marginTop: 18, fontSize: 20, fontWeight: 'bold', color: 'grey' }}>{item.name}</Text>
+                    <Text style={{ marginLeft: 12, marginTop: 18, fontSize: 15, fontWeight: 'bold', color: 'grey' }}>{item.name}</Text>
                     <Image style={{ height: 40, width: 40, marginLeft: 39, marginTop: 15, alignSelf: "flex-end" }} source={item.image} />
 
                 </View>
                 <View style={{ flexDirection: 'row' }}>
-                    <Text style={{ marginLeft: 22, marginTop: 15, fontSize: 20, fontWeight: 'bold', color: 'white' }}>{item.price}</Text>
+                    <Text style={{ marginLeft: 22, marginTop: 15, fontSize: 15, fontWeight: 'bold', color: 'white' }}>{item.price}</Text>
 
-                    <Text style={{ marginLeft: 45, marginTop: 15, fontSize: 16, fontWeight: 'bold', color: 'grey' }}>{item.price2}</Text>
+                    <Text style={{ marginLeft: 45, marginTop: 16, fontSize: 14, fontWeight: 'bold', color: 'grey' }}>{item.price2}</Text>
 
                 </View>
-                <Text style={{ marginLeft: 25, marginTop: 1, fontSize: 16, fontWeight: 'bold', color: 'grey' }}>{item.price1}</Text>
+                <Text style={{ marginLeft: 25, marginTop: 1, fontSize: 15, fontWeight: 'bold', color: 'grey' }}>{item.price1}</Text>
 
             </View>
         )
@@ -84,7 +84,7 @@ const Profile = () => {
         <View style={styles.container}>
             <ImageBackground source={require('../assets/BG.jpg')}
                 style={styles.backgroundImage}>
-                <View style={{ flexDirection: 'row' }}>
+                <View style={{ flexDirection: 'row' ,marginTop:40}}>
                     {/* <View style={{flex:1}}> */}
                     <View>
                         <TextInput style={styles.inputView}
@@ -125,28 +125,28 @@ const Profile = () => {
                         </Image>
                     </View>
 
-                    <Text style={{ fontSize: 18, color: 'white', marginBottom: 5, marginLeft: 29 }}>Total Balance</Text>
-                    <Text style={{ fontSize: 35, color: 'white', marginBottom: 25, marginLeft: 29, fontWeight: 'bold' }}>$2,505.25</Text>
+                    <Text style={{ fontSize: 15, color: 'white', marginBottom: 5, marginLeft: 29 }}>Total Balance</Text>
+                    <Text style={{ fontSize: 30, color: 'white', marginBottom: 25, marginLeft: 29, fontWeight: 'bold' }}>$2,505.25</Text>
 
                 </View>
             </ImageBackground>
             <View style={{ height: 900, backgroundColor: 'white', borderRadius: 34 }}>
                 <View style={{ flexDirection: 'row' }}>
-                    <Text style={{ fontSize: 19, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 22, marginLeft: 29, marginRight: 35 }}>Portfolio</Text>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 22, marginLeft: 29, marginRight: 35 }}>Portfolio</Text>
                     <Image source={require('../assets/pie.png')}
                         style={styles.logo1}>
                     </Image>
-                    <Text style={{ fontSize: 19, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 22, marginLeft: 55, marginRight: 35 }}>Profit/Earning</Text>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 22, marginLeft: 55, marginRight: 35 }}>Profit/Earning</Text>
                     <Image source={require('../assets/dollar.png')}
                         style={styles.logo1}>
                     </Image>
 
                 </View>
                 <View style={{ flexDirection: 'row' }}>
-                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 18, marginLeft: 22, marginRight: 35 }}> $85,885.55</Text>
-                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 18, marginLeft: 38, marginRight: 35 }}> $2,885.55</Text>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 18, marginLeft: 22, marginRight: 35 }}> $85,885.55</Text>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 18, marginLeft: 38, marginRight: 35 }}> $2,885.55</Text>
                 </View>
-                <View style={{ marginVertical: 15 }}>
+                <View style={{ marginVertical: 15 ,marginLeft:8}}>
                     <ScrollView horizontal={true}>
                         {
                             PRODUCT_HOME?.map((item) => {
@@ -154,16 +154,16 @@ const Profile = () => {
                             })
                         }
                     </ScrollView>
-                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'black', marginBottom: 2, marginTop: 22, marginLeft: 29, marginRight: 35 }}>FAST TRANSACTIONS</Text>
-                    <ScrollView horizontal={true}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'black', marginBottom: 2, marginTop: 20, marginLeft: 29, marginRight: 35 }}>FAST TRANSACTIONS</Text>
+                    <ScrollView horizontal={true} style={{marginLeft:0}}>
                         {
                             FRIENDS_LIST?.map((item) => {
                                 return renderitems(item);
                             })
                         }
                     </ScrollView>
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black', marginBottom: 2, marginTop: 15, marginLeft: 29, marginRight: 35 }}>CARDS </Text>
-                    <ScrollView horizontal={true}>
+                    <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black', marginBottom: 2, marginTop: 8, marginLeft: 29, marginRight: 35 }}>CARDS </Text>
+                    <ScrollView horizontal={true}style={{marginLeft:0}}>
                         {
                             PRODUCT_CARD?.map((item) => {
                                 return renderitem1(item);
@@ -250,7 +250,7 @@ const styles = StyleSheet.create({
         width: 18,
         marginBottom: 5,
         marginTop: 25,
-        marginLeft: 5
+        marginLeft: 0
     },
     discovercrypto: {
         borderWidth: 0,

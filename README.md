@@ -1,79 +1,109 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+## 🚀 About Me
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+# Hi, I'm Blessen George! 👋
+
+
+👩‍💻 I'm currently working on React-native
+
+🧠 I'm currently learning Fundamental concepts of Javascript
+
+⚡️ Fun fact...
+
+# BINANCE DEMO APP
+
+Welcome to the Binance Clone app, your all-in-one solution for secure and seamless cryptocurrency trading. Experience the power of the world's leading crypto exchange, now in the palm of your hand. Whether you're a seasoned trader or a crypto enthusiast, our app provides you with a user-friendly and feature-rich platform for all your digital asset needs.
+
+
+
+
+## FEATURES  🚀
+
+Trade Anytime, Anywhere:
+Take control of your crypto portfolio on the go. Our app allows you to trade a wide range of cryptocurrencies anytime, anywhere. Seize market opportunities and execute trades with ease. 🌐📱
+
+Advanced Trading Tools:
+Access a suite of advanced trading tools to enhance your strategy. From real-time price charts to technical analysis indicators, we've got everything you need to make informed trading decisions. 📈🔍
+
+Secure and Reliable:
+Trust is paramount in the world of crypto. Rest assured, our app prioritizes the security of your assets. Enjoy peace of mind with top-notch security features, including two-factor authentication and biometric login. 🔒🛡️
+
+User-Friendly Interface:
+Navigate the crypto markets effortlessly with our intuitive and user-friendly interface. Whether you're a beginner or an experienced trader, our app is designed for simplicity without compromising functionality. 🤖🖥️
+
+Instant Deposits and Withdrawals:
+Seamlessly manage your funds with quick and secure deposits and withdrawals. Enjoy the flexibility to move your assets in and out of the market with minimum hassle. 💸💼
+
+
+Portfolio Tracking:
+Keep a close eye on your portfolio's performance with our comprehensive tracking tools. Monitor your gains and losses, track transaction history, and stay on top of your crypto investments. 📊💰
+
+Customer Support:
+Our dedicated customer support team is here to assist you. Have a question or encounter an issue? Reach out to us, and we'll provide the support you need to navigate the crypto markets confidently. 🤝🌐
+
+Download the Binance Clone app now and join a community of crypto enthusiasts. Elevate your trading experience and embrace the future of finance with confidence.
+
+Start trading today! 🚀🌕
+
+
+
+
+
+## Screenshots
+![App Screenshot](./screenshots/Login.png)
+
+![App Screenshot](./screenshots/Home.png)
+
+![App Screenshot](./screenshots/Search.png)
+
+![App Screenshot](./screenshots/Option.png)
+
+![App Screenshot](./screenshots/Discover.png)
+
+![App Screenshot](./screenshots/Menu.png)
+
+![App Screenshot](./screenshots/Profile.png)
+
+
+
+
+## Installation
+
+Install my-project with EXPO
+
 
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+  npx expo start
 ```
+```bash
+  npx run-android
+```    
+## Run Locally
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+Clone the project
 
 ```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
+  git clone https://github.com/blessengeorge30/BINANCE-PROJECT
 ```
 
-### For iOS
+Go to the project directory
 
 ```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+  cd BINANCE-PROJECT
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+Install dependencies
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+```bash
+  npm install BINANCE-PROJECT
+```
 
-## Step 3: Modifying your App
+Start the server
 
-Now that you have successfully run the app, let's modify it.
+```bash
+  npm run start
+```
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.

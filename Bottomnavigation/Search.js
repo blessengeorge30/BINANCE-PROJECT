@@ -20,12 +20,12 @@ const Search = () => {
               <View style={{ flexDirection: 'row', }}>
                 <Image style={{ height: 40, width: 40, marginLeft: 10 ,marginVertical :11,}} source={item.image} />
 
-                <Text style={{color: 'white', marginHorizontal: 30,fontWeight: 'bold',fontSize:18,marginTop:13 }}>{item.name}</Text>
+                <Text style={{color: 'white', marginHorizontal: 30,fontWeight: 'bold',fontSize:15,marginTop:13 }}>{item.name}</Text>
                 <View style={{ flex: 1 }}>
-                  <Text style={{ color: 'white',marginHorizontal:30, alignSelf:'flex-end',marginTop:20,fontSize:16,color:'white' }}>{item.price}</Text>
+                  <Text style={{ color: 'white',marginHorizontal:30, alignSelf:'flex-end',marginTop:20,fontSize:15,color:'white' }}>{item.price}</Text>
                 </View>
               </View>
-              <Text style={{color: 'grey', fontWeight: 'bold',fontSize:18,position:'absolute',marginHorizontal:80,marginTop:34 }}>{item.name1}</Text>  
+              <Text style={{color: 'grey', fontWeight: 'bold',fontSize:15,position:'absolute',marginHorizontal:80,marginTop:34 }}>{item.name1}</Text>  
 
               <View style={{ borderBottomWidth: 0.5, borderBottomColor: 'white', marginHorizontal: 10}}></View>
             </View>

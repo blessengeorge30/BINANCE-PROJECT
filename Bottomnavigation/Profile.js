@@ -18,9 +18,9 @@ const Profile = () => {
               <View style={{ flexDirection: 'row', }}>
                 <Image style={{ height: 30, width: 30, marginLeft: 30 ,marginVertical :15,}} source={item.image} />
 
-                <Text style={{color: 'black',fontWeight: 'bold',fontSize:18,marginLeft:15,marginTop:15 }}>{item.name}</Text>
+                <Text style={{color: 'black',fontWeight: 'bold',fontSize:14,marginLeft:15,marginTop:15 }}>{item.name}</Text>
               </View>
-              <Text style={{color: 'grey', fontWeight: 'bold',fontSize:15,position:'absolute',marginTop:34,marginLeft:75 }}>{item.name1}</Text>  
+              <Text style={{color: 'grey', fontWeight: 'bold',fontSize:12,position:'absolute',marginTop:34,marginLeft:75 }}>{item.name1}</Text>  
 
               <View style={{ borderBottomWidth: 0.5, borderBottomColor: 'white', marginHorizontal: 10 }}></View>
             </View>
@@ -32,16 +32,16 @@ const Profile = () => {
     <ScrollView style={styles.container}>
         <ImageBackground  source={require('../assets/BG.jpg')}
                 style={styles.backgroundImage}>
-        <View style={{ flexDirection: 'row',marginTop:50,marginBottom:70 }}>
+        <View style={{ flexDirection: 'row',marginTop:70,marginBottom:70 }}>
         <View style={{flex:1}}>
         <Image source={require('../assets/blessen.jpg')}
                     style={styles.logo}>
                 </Image>
         </View>
-        <View style={{marginTop:24,marginRight:40}}>
-        <Text style={{fontSize: 29,fontWeight: 'bold',color: 'white'}}>BLESSEN GEORGE</Text>
-        <Text style={{ fontSize:18,color: 'grey'}}>+91 8137066525</Text>
-        <Text style={{ fontSize:18,color: 'grey'}}>blessen.george30@gmail.com</Text>
+        <View style={{marginTop:24,marginRight:30}}>
+        <Text style={{fontSize: 22,fontWeight: 'bold',color: 'white'}}>BLESSEN GEORGE</Text>
+        <Text style={{ fontSize:15,color: 'grey'}}>+91 8137066525</Text>
+        <Text style={{ fontSize:15,color: 'grey'}}>blessen.george30@gmail.com</Text>
         </View>
         
        
@@ -69,14 +69,14 @@ const Profile = () => {
                
                 </View>
                 <View style={{ flexDirection: 'row'}}>
-                <Text style={{fontSize:14,marginLeft:46,marginTop:15,color:'white'}}>Apple pay</Text> 
-                <Text style={{marginLeft:60,marginTop:15,color:'white'}}>Binance Pay</Text> 
-                <Text style={{marginLeft:48,marginTop:15,color:'white'}}>Google pay</Text> 
+                <Text style={{fontSize:14,marginLeft:35,marginTop:15,color:'white'}}>Apple pay</Text> 
+                <Text style={{marginLeft:50,marginTop:15,color:'white'}}>Binance Pay</Text> 
+                <Text style={{marginLeft:35,marginTop:15,color:'white'}}>Google pay</Text> 
             </View>
               
         </View>
         <View>
-        <ScrollView>
+        <ScrollView style={{marginTop:20}}>
             {
                         PRODUCT_PROFILEITEMS?.map((item) => {
                             return renderItem(item)

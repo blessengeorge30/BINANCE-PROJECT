@@ -18,9 +18,9 @@ const Profile = () => {
               <View style={{ flexDirection: 'row', }}>
                 <Image style={{ height: 30, width: 30, marginLeft: 30 ,marginVertical :15,}} source={item.image} />
 
-                <Text style={{color: 'black',fontWeight: 'bold',fontSize:18,marginLeft:15,marginTop:15 }}>{item.name}</Text>
+                <Text style={{color: 'black',fontWeight: 'bold',fontSize:14,marginLeft:15,marginTop:15 }}>{item.name}</Text>
               </View>
-              <Text style={{color: 'grey', fontWeight: 'bold',fontSize:15,position:'absolute',marginTop:34,marginLeft:75 }}>{item.name1}</Text>  
+              <Text style={{color: 'grey', fontWeight: 'bold',fontSize:12,position:'absolute',marginTop:34,marginLeft:75 }}>{item.name1}</Text>  
 
               <View style={{ borderBottomWidth: 0.5, borderBottomColor: 'white', marginHorizontal: 10 }}></View>
             </View>
@@ -74,14 +74,14 @@ const Profile = () => {
                
                 </View>
                 <View style={{ flexDirection: 'row'}}>
-                <Text style={{fontSize:14,marginLeft:46,marginTop:10,color:'white'}}>Recieve</Text> 
-                <Text style={{marginLeft:75,marginTop:10,color:'white'}}>Send</Text> 
-                <Text style={{marginLeft:78,marginTop:10,color:'white'}}>Scan to Pay</Text> 
+                <Text style={{fontSize:14,marginLeft:40,marginTop:10,color:'white'}}>Recieve</Text> 
+                <Text style={{marginLeft:74,marginTop:10,color:'white'}}>Send</Text> 
+                <Text style={{marginLeft:70,marginTop:10,color:'white'}}>Scan to Pay</Text> 
             </View>
               
         </View>
         <View>
-        <ScrollView>
+        <ScrollView style={{marginTop:25}}>
             {
                         PRODUCT_PROFILEITEMS?.map((item) => {
                             return renderItem(item)
@@ -110,7 +110,7 @@ backgroundImage:{
 },
 headercard: {
     borderWidth:0,
-    width:'89%',
+    width:'90%',
     height: 180,
     backgroundColor:'#282928',
     marginTop:-45,
@@ -124,14 +124,14 @@ cardtext:{
     marginTop:12,
     marginLeft:24,
     color:'white',
-    fontSize:18,
-   marginRight:110
+    fontSize:15,
+   marginRight:100
 },
 bank:{
         height: 45,
         width: 45,
         marginTop:40,
-        marginLeft:40,
+        marginLeft:45,
         
       
     },
