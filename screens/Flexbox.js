@@ -14,11 +14,44 @@ import Icon from 'react-native-vector-icons/AntDesign';
 
 const Tab = createBottomTabNavigator()
 
+const HomeIcon = () => (
+    <Image
+      source={require("../assets/Homeicon.png")}
+      style={{ width: 25, height: 25, tintColor: "white" }}
+    />
+  );
+  const ExploreIcon = () => (
+    <Image
+      source={require("../assets/search1.png")}
+      style={{ width: 20, height: 20, tintColor: "white" }}
+    />
+  );
+  const DiscoverIcon = () => (
+    <Image
+      source={require("../assets/discover.png")}
+      style={{ width: 24, height: 24,  }}
+    />
+  );
+  const NotifiactionIcon = () => (
+    <Image
+      source={require("../assets/Notificationicon.png")}
+      style={{ width: 24, height: 24, tintColor: "white" }}
+    />
+  );
+  const AccountIcon = () => (
+    <Image
+      source={require("../assets/manageuser.png")}
+      style={{ width: 22, height: 22, tintColor: "white" }}
+    />
+  );
+
 const Flexbox = () => {
     return (
         <Tab.Navigator
             screenOptions={{
                 tabBarStyle: {
+                    // borderTopLeftRadius:15,
+                    // borderTopRightRadius:15,
                     height: 68,
                     backgroundColor: 'black'
                 },
@@ -38,7 +71,7 @@ const Flexbox = () => {
                 options={{
                     headerShown: false,
                     tabBarIcon: ({ color, size }) => (
-                        <Icon name="home" size={25} color="white"/>
+                        <HomeIcon />
                         ),
                     tabBarLabelStyle: {
                         marginBottom: 5,
@@ -52,7 +85,7 @@ const Flexbox = () => {
                 options={{
                     headerShown: false,
                     tabBarIcon: ({ color, size }) => (
-                        <Icon name="search1" size={25} color="white"/>
+                        <ExploreIcon />
                         ),
                     tabBarLabelStyle: {
                         marginBottom: 5,
@@ -65,7 +98,7 @@ const Flexbox = () => {
                 options={{
                     headerShown: false,
                     tabBarIcon: ({ color, size }) => (
-                        <Icon name="barschart" size={25} color="white"/>
+                        <DiscoverIcon />
                         ),
                     tabBarLabelStyle: {
                         marginBottom: 5,
@@ -79,7 +112,7 @@ const Flexbox = () => {
                 options={{
                     headerShown: false,
                     tabBarIcon: ({ color, size }) => (
-                        <Icon name="inbox" size={25} color="white"/>
+                        <NotifiactionIcon />
                         ),
                     tabBarLabelStyle: {
                         marginBottom: 5,
@@ -93,7 +126,7 @@ const Flexbox = () => {
                 options={{
                     headerShown: false,
                     tabBarIcon: ({ color, size }) => (
-                        <Icon name="user" size={25} color="white"/>
+                        <AccountIcon />
                         ),
                     tabBarLabelStyle: {
                         marginBottom: 5,

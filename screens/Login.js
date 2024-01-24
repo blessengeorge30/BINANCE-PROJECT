@@ -110,7 +110,8 @@ const styles = StyleSheet.create({
     bottomlogintxt: {
         fontSize: 15,
         fontWeight: 'bold',
-        marginTop: 10
+        marginTop: 10,
+        color:'white'
     },
     headerImage2: {
         height: 28,

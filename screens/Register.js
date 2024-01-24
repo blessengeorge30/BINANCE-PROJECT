@@ -42,7 +42,7 @@ const Profile = () => {
           </Image>
         </View>
         <View>
-          <Text style={{ color: 'black', fontWeight: 'bold', fontSize: 20, alignSelf: "center", marginTop: 15 }}>Sign up to get  100 USDT trading fee rebate !</Text>
+          <Text style={{ color: 'black', fontWeight: 'bold', fontSize: 16, alignSelf: "center", marginTop: 15 }}>Sign up to get  100 USDT trading fee rebate !</Text>
         </View>
         <TouchableOpacity style={styles.buttonView}
         onPress={Signup} >
@@ -182,8 +182,8 @@ const styles = StyleSheet.create({
   buttontext: {
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 18,
-    marginLeft: 10
+    fontSize: 13,
+    marginLeft: 20
 
 
   },
@@ -191,8 +191,8 @@ const styles = StyleSheet.create({
   buttontext1: {
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 18,
-    marginLeft: 20
+    fontSize: 14,
+    marginLeft: 28
 
 
   },

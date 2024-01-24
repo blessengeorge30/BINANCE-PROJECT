@@ -56,7 +56,7 @@ const Profile = () => {
         <View style={{ flexDirection: 'row'}}>
         <Text style={styles.cardtext}>Setup payment methods 1/3</Text>
         <View style={{alignSelf:'flex-end',}}>
-        <Icon  name="arrowright" size={24} color="white "/>
+      
 
         </View>
         </View>
@@ -128,26 +128,27 @@ cardtext:{
    marginRight:100
 },
 bank:{
-        height: 45,
-        width: 45,
-        marginTop:40,
+        height: 40,
+        width: 40,
+        marginTop:35,
         marginLeft:45,
+        tintColor:"#fff"
         
       
     },
     bank1:{
-        height: 45,
-        width: 45,
+        height: 40,
+        width: 40,
         marginTop:35,
-        marginLeft:70,
+        marginLeft:75,
         tintColor:"#F0B90B"
         
     },
     bank2:{
-        height: 50,
-        width: 50,
+        height: 45,
+        width: 40,
         marginTop:38,
-        marginLeft:69,
+        marginLeft:80,
         
     },
 
