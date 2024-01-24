@@ -28,37 +28,37 @@ Start trading today! 🚀🌕
 
 ![App Screenshot](./screenshots/Login.png)
 
-![App Screenshot](./screenshots/Homepage)
+![App Screenshot](./screenshots/Homepage.png)
 
-![App Screenshot](./screenshots/profile)
+![App Screenshot](./screenshots/profile.png)
 
-![App Screenshot](./screenshots/search)
+![App Screenshot](./screenshots/search.png)
 
-![App Screenshot](./screenshots/discover)
+![App Screenshot](./screenshots/discover.png)
 
-![App Screenshot](./screenshots/discoverbottom)
+![App Screenshot](./screenshots/discoverbottom.png)
 
-![App Screenshot](./screenshots/Priceaction )
+![App Screenshot](./screenshots/Priceaction.png)
 
-![App Screenshot](./screenshots/FAV)
+![App Screenshot](./screenshots/FAV.png)
 
-![App Screenshot](./screenshots/INFO)
+![App Screenshot](./screenshots/INFO.png)
 
-![App Screenshot](./screenshots/moreINFO)
+![App Screenshot](./screenshots/moreINFO.png)
 
-![App Screenshot](./screenshots/SignupPage)
+![App Screenshot](./screenshots/SignupPage.png)
 
-![App Screenshot](./screenshots/CreateACC)
+![App Screenshot](./screenshots/CreateACC.png)
 
-![App Screenshot](./screenshots/PHONENO)
+![App Screenshot](./screenshots/PHONENO.png)
 
-![App Screenshot](./screenshots/ASSETINFO)
+![App Screenshot](./screenshots/ASSETINFO.png)
 
-![App Screenshot](./screenshots/ASSETMOREINFO)
+![App Screenshot](./screenshots/ASSETMOREINFO.png)
 
-![App Screenshot](./screenshots/ABOUT)
+![App Screenshot](./screenshots/ABOUT.png)
 
-![App Screenshot](./screenshots/MORE)
+![App Screenshot](./screenshots/MORE.png)
 
 
 ## 🚀 About Me
