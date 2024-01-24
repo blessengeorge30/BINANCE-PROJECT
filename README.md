@@ -30,11 +30,11 @@ Start trading today! 🚀🌕
 
 ![App Screenshot](./screenshots/Homepage.png)
 
-![App Screenshot](./screenshots/profile.png)
+![App Screenshot](./screenshots/Profile.png)
 
-![App Screenshot](./screenshots/search.png)
+![App Screenshot](./screenshots/Search.png)
 
-![App Screenshot](./screenshots/discover.png)
+![App Screenshot](./screenshots/Discover.png)
 
 ![App Screenshot](./screenshots/discoverbottom.png)
 
