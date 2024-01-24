@@ -50,8 +50,8 @@ const Flexbox = () => {
         <Tab.Navigator
             screenOptions={{
                 tabBarStyle: {
-                    // borderTopLeftRadius:15,
-                    // borderTopRightRadius:15,
+                    borderTopLeftRadius:15,
+                    borderTopRightRadius:15,
                     height: 68,
                     backgroundColor: 'black'
                 },
