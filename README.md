@@ -4,6 +4,8 @@
 Welcome to the Binance Clone app, your all-in-one solution for secure and seamless cryptocurrency trading. Experience the power of the world's leading crypto exchange, now in the palm of your hand. Whether you're a seasoned trader or a crypto enthusiast, our app provides you with a user-friendly and feature-rich platform for all your digital asset needs.
 
 
+
+
 ## Features 🚀
 
 Trade Anytime, Anywhere: Take control of your crypto portfolio on the go. Our app allows you to trade a wide range of cryptocurrencies anytime, anywhere. Seize market opportunities and execute trades with ease. 🌐📱
@@ -24,7 +26,12 @@ Download the Binance Clone app now and join a community of crypto enthusiasts. E
 
 Start trading today! 🚀🌕
 
+
+## Overview
+
+![App Screenshot](./screenshots/overview.png)
 ## Screenshots
+
 
 ![App Screenshot](./screenshots/Login.png)
 
@@ -61,13 +68,18 @@ Start trading today! 🚀🌕
 ![App Screenshot](./screenshots/MORE.png)
 
 
+
+
+
+
+
 ## 🚀 About Me
 
 
 
 # Hi, I'm Blessen George! 👋
 
-🚀 I'm a Front-end javascript developer...
+
 
 👩‍💻 I'm currently working on React-native
 
@@ -79,5 +91,4 @@ Start trading today! 🚀🌕
 ## 🔗 Links
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/blessen-george-9360a9220/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
 
