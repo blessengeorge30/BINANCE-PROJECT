@@ -37,7 +37,7 @@ const Profile = () => {
                 </View>
                 <View style={{ flexDirection: 'row' }}>
                     <Text style={{ marginLeft: 27, marginTop: 15, fontSize: 18, fontWeight: 'bold', color: 'black' }}>{item.price}</Text>
-                    <Text style={{ marginLeft: 20, marginTop: 18, fontSize: 17, fontWeight: 'bold', color: 'green' }}>{item.price1}</Text>
+                    <Text style={{ marginLeft: 20, marginTop: 18, fontSize: 14, fontWeight: 'bold', color: 'green' }}>{item.price1}</Text>
 
                 </View>
 
@@ -69,7 +69,7 @@ const Profile = () => {
 
                 </View>
                 <View style={{ flexDirection: 'row' }}>
-                    <Text style={{ marginLeft: 22, marginTop: 15, fontSize: 15, fontWeight: 'bold', color: 'white' }}>{item.price}</Text>
+                    <Text style={{ marginLeft: 22, marginTop: 15, fontSize: 14, fontWeight: 'bold', color: 'white' }}>{item.price}</Text>
 
                     <Text style={{ marginLeft: 45, marginTop: 16, fontSize: 14, fontWeight: 'bold', color: 'grey' }}>{item.price2}</Text>
 
@@ -84,7 +84,7 @@ const Profile = () => {
         <View style={styles.container}>
             <ImageBackground source={require('../assets/BG.jpg')}
                 style={styles.backgroundImage}>
-                <View style={{ flexDirection: 'row' ,marginTop:40}}>
+                <View style={{ flexDirection: 'row' ,marginTop:30}}>
                     {/* <View style={{flex:1}}> */}
                     <View>
                         <TextInput style={styles.inputView}
@@ -119,24 +119,24 @@ const Profile = () => {
                 </View>
                 <View style={{ marginRight: 150 }}>
                     <View style={{ flexDirection: 'row' }}>
-                        <Text style={{ fontSize: 15, color: 'grey', marginBottom: 5, marginTop: 22, marginLeft: 29 }}>Welcome Back , George !</Text>
+                        <Text style={{ fontSize: 13, color: 'grey', marginBottom: 5, marginTop: 22, marginLeft: 29 }}>Welcome Back , George !</Text>
                         <Image source={require('../assets/wave.png')}
                             style={styles.logo}>
                         </Image>
                     </View>
 
-                    <Text style={{ fontSize: 15, color: 'white', marginBottom: 5, marginLeft: 29 }}>Total Balance</Text>
-                    <Text style={{ fontSize: 30, color: 'white', marginBottom: 25, marginLeft: 29, fontWeight: 'bold' }}>$2,505.25</Text>
+                    <Text style={{ fontSize: 14, color: 'white', marginBottom: 5, marginLeft: 29 }}>Total Balance</Text>
+                    <Text style={{ fontSize: 28, color: 'white', marginBottom: 25, marginLeft: 29, fontWeight: 'bold' }}>$2,505.25</Text>
 
                 </View>
             </ImageBackground>
-            <View style={{ height: 900, backgroundColor: 'white', borderRadius: 34 }}>
+            <View style={{ height: 900, backgroundColor: 'white', borderRadius: 25 }}>
                 <View style={{ flexDirection: 'row' }}>
-                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 22, marginLeft: 29, marginRight: 35 }}>Portfolio</Text>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 22, marginLeft: 29, marginRight: 35 }}>Portfolio</Text>
                     <Image source={require('../assets/pie.png')}
                         style={styles.logo1}>
                     </Image>
-                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 22, marginLeft: 55, marginRight: 35 }}>Profit/Earning</Text>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 22, marginLeft: 75, marginRight: 35 }}>Profit/Earning</Text>
                     <Image source={require('../assets/dollar.png')}
                         style={styles.logo1}>
                     </Image>
@@ -146,23 +146,23 @@ const Profile = () => {
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 18, marginLeft: 22, marginRight: 35 }}> $85,885.55</Text>
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 18, marginLeft: 38, marginRight: 35 }}> $2,885.55</Text>
                 </View>
-                <View style={{ marginVertical: 15 ,marginLeft:8}}>
-                    <ScrollView horizontal={true}>
+                <View style={{ marginVertical: 15 ,marginLeft:5}} >
+                    <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
                         {
                             PRODUCT_HOME?.map((item) => {
                                 return renderitem(item);
                             })
                         }
                     </ScrollView>
-                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'black', marginBottom: 2, marginTop: 20, marginLeft: 29, marginRight: 35 }}>FAST TRANSACTIONS</Text>
-                    <ScrollView horizontal={true} style={{marginLeft:0}}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'black', marginBottom: 2, marginTop: 20, marginLeft: 24, marginRight: 35 }}>FAST TRANSACTIONS</Text>
+                    <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={{marginLeft:-0}}>
                         {
                             FRIENDS_LIST?.map((item) => {
                                 return renderitems(item);
                             })
                         }
                     </ScrollView>
-                    <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black', marginBottom: 2, marginTop: 8, marginLeft: 29, marginRight: 35 }}>CARDS </Text>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: 'black', marginBottom: 2, marginTop: 8, marginLeft: 24, marginRight: 35 }}>CARDS </Text>
                     <ScrollView horizontal={true}style={{marginLeft:0}}>
                         {
                             PRODUCT_CARD?.map((item) => {
@@ -255,7 +255,7 @@ const styles = StyleSheet.create({
     discovercrypto: {
         borderWidth: 0,
         borderColor: 'white',
-        width: 180,
+        width: 190,
         height: 120,
         borderRadius: 20,
         marginHorizontal: 8,
@@ -279,7 +279,7 @@ const styles = StyleSheet.create({
     discovercards: {
         borderWidth: 0,
         borderColor: 'white',
-        width: 180,
+        width: 190,
         height: 120,
         borderRadius: 20,
         marginTop: 5,

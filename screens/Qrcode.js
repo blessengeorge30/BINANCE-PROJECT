@@ -51,16 +51,19 @@ const Profile = () => {
        
         </View>
         </ImageBackground>
-        <View style={{height:900,backgroundColor:'white',}}>
+        <View style={{height:900,backgroundColor:'white',borderRadius:15,marginTop:-15}}>
         <View style={styles.headercard}>
-        <View style={{ flexDirection: 'row'}}>
-        <Text style={styles.cardtext}>Setup payment methods 1/3</Text>
+        <View >
+      
+        <Image source={require('../assets/BPQR.jpeg')}
+                    style={styles.logo}/>
+
         <View style={{alignSelf:'flex-end',}}>
       
 
         </View>
         </View>
-        <View style={{ flexDirection: 'row'}}>
+        {/* <View style={{ flexDirection: 'row'}}>
             
                 <Image source={require('../assets/wallet.png')}
                     style={styles.bank}>
@@ -77,7 +80,7 @@ const Profile = () => {
                 <Text style={{fontSize:14,marginLeft:40,marginTop:10,color:'white'}}>Recieve</Text> 
                 <Text style={{marginLeft:74,marginTop:10,color:'white'}}>Send</Text> 
                 <Text style={{marginLeft:70,marginTop:10,color:'white'}}>Scan to Pay</Text> 
-            </View>
+            </View> */}
               
         </View>
         <View>
@@ -101,31 +104,35 @@ const styles = StyleSheet.create({
         flex:1
     },
     logo: {
-    height: 125,
-    width: 125,
-    marginLeft:22
+    height: 280,
+    width: 285,
+    borderRadius:10,
+    alignSelf:"center",
+    marginVertical:15
     
 },
 backgroundImage:{
 },
 headercard: {
     borderWidth:0,
-    width:'90%',
-    height: 180,
-    backgroundColor:'#282928',
-    marginTop:-45,
-    marginHorizontal:20,
+    width:'55%',
+    height: 310,
+    backgroundColor:'black',
+    marginTop:-55,
+    alignSelf:"center",
     borderRadius:30,
-    elevation:15
+    elevation:20,
+    marginBottom:20
 
         
 },
 cardtext:{
-    marginTop:12,
-    marginLeft:24,
+    marginTop:22,
+    marginLeft:54,
     color:'white',
     fontSize:15,
-   marginRight:100
+   marginRight:10,
+
 },
 bank:{
         height: 40,

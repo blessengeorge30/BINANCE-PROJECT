@@ -38,10 +38,10 @@ const Profile = () => {
                     style={styles.logo}>
                 </Image>
         </View>
-        <View style={{marginTop:24,marginRight:30}}>
-        <Text style={{fontSize: 22,fontWeight: 'bold',color: 'white'}}>BLESSEN GEORGE</Text>
-        <Text style={{ fontSize:15,color: 'grey'}}>+91 8137066525</Text>
-        <Text style={{ fontSize:15,color: 'grey'}}>blessen.george30@gmail.com</Text>
+        <View style={{marginTop:24,marginRight:35}}>
+        <Text style={{fontSize: 20,fontWeight: 'bold',color: 'white'}}>BLESSEN GEORGE</Text>
+        <Text style={{ fontSize:13,color: 'grey'}}>+91 8137066525</Text>
+        <Text style={{ fontSize:13,color: 'grey'}}>blessen.george30@gmail.com</Text>
         </View>
         
        
@@ -52,11 +52,11 @@ const Profile = () => {
         <View style={{ flexDirection: 'row'}}>
         <Text style={styles.cardtext}>Setup payment methods 1/3</Text>
         <View style={{alignSelf:'flex-end',}}>
-        <Icon  name="arrowright" size={24} color="white "/>
+     
 
         </View>
         </View>
-        <View style={{ flexDirection: 'row'}}>
+        <View style={{ flexDirection: 'row' ,marginTop:-12}}>
             <Image source={require('../assets/applepay.png')}
                     style={styles.bank}>
                 </Image>
@@ -119,7 +119,7 @@ cardtext:{
     marginTop:12,
     marginLeft:24,
     color:'white',
-    fontSize:18,
+    fontSize:15,
    marginRight:110
 },
 bank:{
