@@ -154,7 +154,7 @@ const Profile = () => {
                             })
                         }
                     </ScrollView>
-                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'black', marginBottom: 2, marginTop: 20, marginLeft: 24, marginRight: 35 }}> FAST TRANSACTIONS </Text>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'black', marginBottom: 2, marginTop: 20, marginLeft: 24, marginRight: 35 }}> FAST TRANSACTIONS</Text>
                     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={{marginLeft:-0}}>
                         {
                             FRIENDS_LIST?.map((item) => {
