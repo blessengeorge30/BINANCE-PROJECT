@@ -143,7 +143,7 @@ const Profile = () => {
 
                 </View>
                 <View style={{ flexDirection: 'row' }}>
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 18, marginLeft: 22, marginRight: 35 }}> $85,885.55.</Text>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 18, marginLeft: 22, marginRight: 35 }}> $85,885.55</Text>
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black', marginBottom: 5, marginTop: 18, marginLeft: 38, marginRight: 35 }}> $2,885.55</Text>
                 </View>
                 <View style={{ marginVertical: 15 ,marginLeft:5}} >
