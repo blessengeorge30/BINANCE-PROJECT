@@ -126,7 +126,7 @@ const Profile = () => {
                     </View>
 
                     <Text style={{ fontSize: 14, color: 'white', marginBottom: 5, marginLeft: 29 }}>Total Balance</Text>
-                    <Text style={{ fontSize: 28, color: 'white', marginBottom: 25, marginLeft: 29, fontWeight: 'bold' }}>$2,505.25</Text>
+                    <Text style={{ fontSize: 28, color: 'white', marginBottom: 25, marginLeft: 29, fontWeight: 'bold' }}>$2,505.55</Text>
 
                 </View>
             </ImageBackground>
